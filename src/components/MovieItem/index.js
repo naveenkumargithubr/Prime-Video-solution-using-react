@@ -24,7 +24,7 @@ const MovieItem = props => {
               <IoMdClose size="30" />
             </button>
             <div className="video-container">
-              <ReactPlayer url={videoUrl} /> // viedo playes is displayed here 
+              <ReactPlayer url={videoUrl} controls/> // viedo playes is displayed here 
             </div>
           </div>
         )}
