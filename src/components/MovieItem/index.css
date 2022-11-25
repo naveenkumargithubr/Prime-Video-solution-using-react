@@ -1,0 +1,44 @@
+/* Write your CSS here */
+.movie-item-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+.video-container {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.thumbnail {
+  width: 200px;
+  height: 150px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.close-btn {
+  background-color: transparent;
+  border-width: 0px;
+  border: none;
+  outline: none;
+  align-self: flex-end;
+  padding-right: 15px;
+  padding-top: 10px;
+}
+
+.popup-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+.popup-container {
+  background-color: #ffffff;
+}
