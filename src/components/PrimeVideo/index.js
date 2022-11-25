@@ -6,10 +6,15 @@ import './index.css'
 const PrimeVideo = props => {
   const {moviesList} = props
 
+  // here we filtering the movies based on the category
+  
+  
   const actionMoviesList = moviesList.filter(
     eachAction => eachAction.categoryId === 'ACTION',
   )
 
+  // here also filterig the movies
+  
   const comedyMoviesList = moviesList.filter(
     eachComedy => eachComedy.categoryId === 'COMEDY',
   )
@@ -22,9 +27,9 @@ const PrimeVideo = props => {
       />
       <div className="movies-list-container">
         <h1 className="movies-head">Action Movies</h1>
-        <MoviesSlider itemsList={actionMoviesList} />
-        <h1 className="movies-head">Comedy Movies</h1>
-        <MoviesSlider itemsList={comedyMoviesList} />
+        <MoviesSlider itemsList={actionMoviesList} /> // display the action movies corousals here 
+        <h1 className="movies-head">Comedy Movies</h1> 
+        <MoviesSlider itemsList={comedyMoviesList} /> // display the comedy movies corousals here
       </div>
     </div>
   )
