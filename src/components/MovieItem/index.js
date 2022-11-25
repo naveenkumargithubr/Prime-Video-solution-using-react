@@ -20,7 +20,7 @@ const MovieItem = props => {
       >
         {close => (
           <div className="popup-container">
-            <button type="button" onClick={() => close()} testid="closeButton">
+            <button type="button" onClick={() => close()} testid="closeButton" className="close-btn">
               <IoMdClose size="30" />
             </button>
             <div className="video-container">
